@@ -1,0 +1,285 @@
+# 注意事项：建议规范全站路径 URL 最后带一个 "/" 例如 "about/"
+# 上栏
+navbar:
+  logo: # choose [img] or [icon + title]
+    img:
+    icon:
+    title:
+  menu:
+    # The following can be written in `blog/source/_data/menu.yml`
+    - name: 主页
+      icon: fas fa-rss
+      url: /
+    - name: 分类
+      icon: fas fa-folder-open
+      url: categories/
+    - name: 标签
+      icon: fas fa-tags
+      url: tags/
+    - name: 归档
+      icon: fas fa-archive
+      url: archives/
+    - name: 友链
+      icon: fas fa-link
+      url: friends/
+    - name: 暗黑模式
+      icon: fas fa-moon
+      toggle: darkmode
+    - name: 背景音乐
+      icon: fas fa-compact-disc
+    - name: 关于
+      icon: fas fa-info-circle
+      url: about/
+  search: Search for... # Search bar placeholder
+
+
+  #页脚
+site_footer:
+  # layout of footer: [aplayer, social, license, info, copyright]
+  layout: [license, analytics, info, copyright]
+  # site source
+  source: https://github.com/volantis-x/volantis-docs/
+  # analytics using leancloud
+  analytics: >
+    <span id="lc-sv">本站总访问量为 <span id='number'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> 次</span>
+    <span id="lc-uv">访客数为 <span id='number'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> 人</span>
+  # site copyright
+  copyright: "[Copyright © 2020-2021](/)"
+  # You can add your own property here. (Support markdown, for example: br: '<br>')
+  br: "<br>"
+
+
+sidebar:
+  # 主页、分类、归档等独立页面
+  for_page: [blogger, category, tagcloud, qrcode, webinfo]
+  # layout: docs/post 这类文章页面
+  for_post: [toc]
+  # 侧边栏组件库
+  widget_library:
+    # ---------------------------------------
+    # blogger info widget
+    blogger:
+      class: blogger
+      display: [desktop] # [desktop, mobile]
+      avatar: https://s1.ax1x.com/2020/09/10/wJeU2D.jpg
+      shape: rectangle # circle, rectangle
+      url: https://www.niuwx.cn/
+      title:
+      subtitle:
+      jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
+      social:
+        - icon: fas fa-rss
+          url: /atom.xml
+        - icon: fas fa-envelope
+          url: mailto:28251536@qq.com
+        - icon: fab fa-github
+          url: https://github.com/28251536/
+        - icon: fas fa-headphones-alt
+          url: https://28251536.github.io/
+    # ---------------------------------------
+    # toc widget (valid only in articles)
+    toc:
+      class: toc
+      display: [desktop] # [desktop, mobile]
+      header:
+        icon: fas fa-list
+        title: 本文目录
+      list_number: false
+      min_depth: 2
+      max_depth: 5
+    # ---------------------------------------
+    # category widget
+    category:
+      class: category
+      display: [desktop] # [desktop, mobile]
+      header:
+        icon: fas fa-folder-open
+        title: 文章分类
+        url: categories/
+    # ---------------------------------------
+    # tagcloud widget
+    tagcloud:
+      class: tagcloud
+      display: [desktop] # [desktop, mobile]
+      header:
+        icon: fas fa-tags
+        title: 热门标签
+        url: tags/
+      min_font: 14
+      max_font: 24
+      color: true
+      start_color: "#999"
+      end_color: "#555"
+
+    # ---------------------------------------
+    # qrcode widget
+    donate:
+      class: qrcode
+      display: [desktop] # [desktop, mobile]
+      height: 64px # Automatic height if not set
+      images:
+        - https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
+        - https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
+    # ---------------------------------------
+    # webinfo widget
+    webinfo:
+      class: webinfo
+      display: [desktop]
+      header:
+        icon: fas fa-award
+        title: 站点信息
+      type:
+        article:
+          enable: true
+          text: "文章数目："
+          unit: "篇"
+        runtime:
+          enable: true
+          data: "2021/01/28" # 填写建站日期
+          text: "已运行时间："
+          unit: "天"
+        wordcount:
+          enable: true
+          text: "本站总字数：" # 需要启用 wordcount
+          unit: "字"
+        siteuv:
+          enable: true
+          text: "本站访客数：" # 需要启用 busuanzi
+          unit: "人"
+        sitepv:
+          enable: true
+          text: "本站总访问量：" # 需要启用 busuanzi
+          unit: "次"
+        lastupd:
+          enable: true
+          friendlyShow: true # 更友好的时间显示
+          text: "最后活动时间："
+          unit: "日"
+
+search:
+  enable: true
+  service: hexo # hexo, google, algolia, azure, baidu
+  js: https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@2.6.4/js/search.js
+  google:
+    apiKey:
+    engineId:
+  algolia:
+    applicationID:
+    apiKey:
+    indexName:
+  azure:
+    serviceName:
+    indexName:
+    queryKey:
+  baidu:
+    apiId:
+
+cover:
+  height_scheme: full # full, half
+  layout_scheme: dock # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
+  display:
+    home: true
+    archive: true
+    others: false # can be written in front-matter 'cover: true'
+  background: https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture
+  # background: https://bing.ioliu.cn/v1/rand?w=1920&h=1200
+  logo: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png
+  title: ""
+  subtitle: "Love what you do, do what you love."
+  search: A Wonderful Theme for Hexo # search bar placeholder
+  features:
+    - name: 主页
+      icon: #
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg
+      url: /
+    - name: 归档
+      icon: #
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg
+      url: archives/
+    - name: 分类
+      icon: #
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f516.svg
+      url: categories/
+    - name: 友链
+      icon: #
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f49e.svg
+      url: friends/
+    - name: 关于
+      icon: #
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f453.svg
+      url: about/
+
+
+#评论
+comments:
+  service: valine
+  valine:
+    # js: https://cdn.jsdelivr.net/npm/valine@1.4/dist/Valine.min.js
+    path: # 全局评论地址 目前设置全局评论地址后visitor失效,这是valine的问题
+    placeholder: 快来评论吧~ # 评论占位提示
+    # 其他配置项按照yml格式继续填写即可 除了 [el path placeholder emojiCDN emojiMaps] 选项
+    appId: fUrmhqy46wFmKwoTIG0uNiGB-gzGzoHsz # your appId
+    appKey: uiN9aIdLcAfzRt49jEOsaxhh # your appKey
+    pageSize: 10 # comment list page size
+    lang: zh-cn
+    highlight: false
+    mathJax: false
+
+
+# 文章布局
+article:
+  body:
+    bottom_meta: [wordcount]
+    meta_library:
+      author:
+        avatar: https://s1.ax1x.com/2020/09/10/wJeU2D.jpg
+        name: 发呆
+        url: https://28251536.github.io/
+
+
+pages:
+  # 友链页面配置
+  friends:
+    layout_scheme: sites # simple: 简单布局, traditional: 传统布局,  sites: 网站卡片布局
+
+
+#插件
+plugins:
+  #幻灯片背景
+  backstretch:
+    enable: true
+    js: https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js
+    position: cover # cover: sticky on the cover.   fixed: Fixed as background for the site.
+    duration: 20000 # Duration (ms)
+    fade: 1500 # fade duration (ms) (Not more than 1500)
+    images: # For personal use only. At your own risk if used for commercial purposes !!!
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper/abstract/41F215B9-261F-48B4-80B5-4E86E165259E.jpeg
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist@1.0.0/2020/003.jpg
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist@1.0.0/2020/004.jpg
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist@1.0.0/2020/006.jpg
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist@1.0.0/2020/007.jpg
+      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist@1.0.0/2020/012.jpg
+
+  #音乐播放器
+  aplayer:
+    enable: true
+    js:
+      aplayer: https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js
+      meting: https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js
+    # Required
+    server: netease # netease, tencent, kugou, xiami, baidu
+    type: playlist # song, playlist, album, search, artist
+    id: 3136952023 # song id / playlist id / album id / search keyword
+    # Optional
+    fixed: false # enable fixed mode
+    theme: "#1BCDFC" # main color
+    autoplay: false # audio autoplay
+    order: list # player play order, values: 'list', 'random'
+    loop: all # player loop play, values: 'all', 'one', 'none'
+    volume: 0.7 # default volume, notice that player will remember user setting, default volume will not work after user set volume themselves
+    list_max_height: 320px # list max height
+    list_folded: true
+
+  # 文章字数统计、阅读时长，开启需要安装插件: npm i --save hexo-wordcount
+  wordcount:
+    enable: true
