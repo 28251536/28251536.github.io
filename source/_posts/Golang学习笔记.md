@@ -20,3 +20,5 @@ categories: Golang
 {% checkbox yellow checked, Goproxy中国 %}
 
 #### Go基础
+
+[Go语言基础之变量与常量](https://www.niuwx.cn/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E4%B9%8B%E5%8F%98%E9%87%8F%E4%B8%8E%E5%B8%B8%E9%87%8F/)
