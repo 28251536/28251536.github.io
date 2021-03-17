@@ -1,4 +1,4 @@
-```yaml
+---
 title: Golang学习笔记
 mathjax: true
 pin: true
@@ -7,11 +7,11 @@ tags:
     - Golang    
     - 学习笔记
 categories: - Golang
-```
+---
 
 这里将记录Golang学习的笔记
 
-{% note info, note info 关于开发环境 %}
+{% note info, 关于开发环境 %}
 
 {% checkbox green checked, VScode %}
 
