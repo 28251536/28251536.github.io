@@ -24,3 +24,5 @@ categories: Golang
 
 [Go语言基础之变量与常量](https://www.niuwx.cn/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E4%B9%8B%E5%8F%98%E9%87%8F%E4%B8%8E%E5%B8%B8%E9%87%8F/)
 [Go语言基础之基本数据类型](https://www.niuwx.cn/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E4%B9%8B%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/)
+[Go语言基础之运算符](https://www.niuwx.cn/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E4%B9%8B%E8%BF%90%E7%AE%97%E7%AC%A6/)
+[Go语言基础之流程控制](https://www.niuwx.cn/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E4%B9%8B%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/)
