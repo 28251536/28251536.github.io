@@ -2,7 +2,7 @@
 title: Go语言基础之基本数据类型
 mathjax: true
 pin: false
-date: 2021-03-17 13:31:34
+date: 2021-03-15 13:31:34
 tags: 
 	- Go
 	- Golang
