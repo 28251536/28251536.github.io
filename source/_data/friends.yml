@@ -1,0 +1,15 @@
+- group: 友链
+  description:  友链
+  items:
+    - title: GOOPHER's Blog
+      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/18DAD281896408F73F4EF594111BECA2.jpg
+      url: https://goopher.tk
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-110252@2x.png
+      keywords: # 关键词
+      description: 记录折腾的生活。
+    - title: # 名称
+      avatar: # 头像
+      url: # 链接
+      screenshot: # 截图
+      keywords: # 关键词
+      description: # 描述
