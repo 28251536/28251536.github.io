@@ -222,9 +222,13 @@ comments:
     appKey: uiN9aIdLcAfzRt49jEOsaxhh # your appKey
     pageSize: 10 # comment list page size
     lang: zh-cn
-    highlight: false
+    highlight: true
     mathJax: false
-
+    meta: [nick,mail,link] # valine comment header info
+    requiredFields: [nick,mail]
+    enableQQ: true # Unstable avatar link
+    recordIP: false # Record commenter IP
+    avatar: robohash # gravatar style https://valine.js.org/avatar
 
 # 文章布局
 article:
