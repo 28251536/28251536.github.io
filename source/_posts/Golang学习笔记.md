@@ -18,6 +18,7 @@ categories: Golang
 {% checkbox blue checked, Golang编译环境 %}
 
 {% checkbox yellow checked, Goproxy中国 %}
+<!--more-->
 
 #### Go基础
 
