@@ -109,7 +109,7 @@ deploy:
     repo: git@github.com:28251536/28251536.github.io.git # https://github.com/28251536/28251536.github.io.git
     branch: master
 
-  - type: baidu_url_submitter # 这是新加的主动推送
+  #- type: baidu_url_submitter # 这是新加的主动推送
 
 baidu_url_submit:
   count: 20 # 提交最新的多少个链接
