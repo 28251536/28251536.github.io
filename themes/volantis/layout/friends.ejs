@@ -47,7 +47,7 @@
                       <p class="friend-name"><%- item.title %></p>
                       <% if (item.keywords) { %>
                         <div class='friend-tags-wrapper'>
-                        <% (item.keywords).forEach(function(keyword){ %>
+                        <% (item.keywords||[]).forEach(function(keyword){ %>
                           <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i><%= keyword %></p>
                         <% }) %>
                         </div>
