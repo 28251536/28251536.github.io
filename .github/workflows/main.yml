@@ -36,11 +36,13 @@ jobs:
       run: |
         npm install -g hexo-cli
         npm install
-
+    - name: Install baidu url submit
+      #下载百度自动提交
+      run: |
+        npm install hexo-baidu-url-submit --save
     - name: Generate files
       # 编译 markdown 文件
       run: |
-        npm install hexo-baidu-url-submit --save
         hexo clean
         hexo generate
 
