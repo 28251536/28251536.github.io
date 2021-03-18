@@ -14,6 +14,14 @@ valine:
 
 {% timenode 2021-3-18 %}
 
+1. 增加友链和开往功能
+2. 解决了在部署过程中出现TYPE ERROR的问题
+
+{% endtimenode %}
+
+
+{% timenode 2021-3-17 %}
+
 增加了评论系统的邮箱提醒功能
 
 {% endtimenode %}
