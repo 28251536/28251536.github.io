@@ -40,7 +40,6 @@ jobs:
     - name: Generate files
       # 编译 markdown 文件
       run: |
-        npm remove hexo-baidu-url-submit
         hexo clean
         hexo generate
 
