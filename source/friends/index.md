@@ -9,7 +9,7 @@ title: 我的朋友们 # 可选，这是友链页的标题
 
 {% tabs tab-id %}
 
-<!-- tab 格式 -->
+<!-- tab 提交格式 -->
 ```
 - title: # 名称
   avatar: # 头像
@@ -30,4 +30,5 @@ title: 我的朋友们 # 可选，这是友链页的标题
   description: 蒟蒻的学习笔记
 ```
 <!-- endtab -->
+
 {% endtabs %}
