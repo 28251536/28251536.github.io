@@ -125,7 +125,7 @@ sidebar:
     # webinfo widget
     webinfo:
       class: webinfo
-      display: [desktop]
+      display: [desktop,mobile]
       header:
         icon: fas fa-award
         title: 站点信息
