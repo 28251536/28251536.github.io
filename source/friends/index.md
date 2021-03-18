@@ -20,7 +20,7 @@ title: 我的朋友们 # 可选，这是友链页的标题
 ```
 <!-- endtab -->
 
-<!-- tab 添加我的友联 -->
+<!-- tab 本站信息 -->
 ```
 - title: Fadai
   avatar: https://cdn.jsdelivr.net/gh/28251536/cloudimg@master/img%E5%A4%B4%E5%83%8F.png
