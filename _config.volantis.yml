@@ -22,6 +22,9 @@ navbar:
     - name: 友链
       icon: fas fa-link
       url: friends/
+    - name: 开往
+      icon: fas fa-subway
+      url: https://travellings.now.sh
     - name: 关于
       icon: fas fa-info-circle
       url: about/
