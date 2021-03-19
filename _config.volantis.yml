@@ -45,9 +45,9 @@ site_footer:
   source: https://github.com/volantis-x/volantis-docs/
   # analytics using leancloud
   analytics: 
+    <script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1279768046'%3E%3C/span%3E%3Cscript src='https://s4.cnzz.com/z_stat.php%3Fid%3D1279768046%26online%3D2' type='text/javascript'%3E%3C/script%3E"));</script>
     <span id="lc-sv">本站总访问量为 <span id='number'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> 次</span>
     <span id="lc-uv">访客数为 <span id='number'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> 人</span>
-    <script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1279768046'%3E%3C/span%3E%3Cscript src='https://s4.cnzz.com/z_stat.php%3Fid%3D1279768046%26online%3D2' type='text/javascript'%3E%3C/script%3E"));</script>
   # site copyright
   copyright: "[Copyright © 2020-2021](/)"
   # You can add your own property here. (Support markdown, for example: br: '<br>')
