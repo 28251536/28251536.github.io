@@ -50,7 +50,7 @@ site_footer:
   # site copyright
   copyright: "[Copyright © 2020-2021](/)"
   # You can add your own property here. (Support markdown, for example: br: '<br>')
-  br: <script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1279768046'%3E%3C/span%3E%3Cscript src='https://s4.cnzz.com/z_stat.php%3Fid%3D1279768046%26online%3D2' type='text/javascript'%3E%3C/script%3E"));</script># "<br>"
+  br: "<script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1279768046'%3E%3C/span%3E%3Cscript src='https://s4.cnzz.com/z_stat.php%3Fid%3D1279768046%26online%3D2' type='text/javascript'%3E%3C/script%3E"));</script>"
 
 
 sidebar:
