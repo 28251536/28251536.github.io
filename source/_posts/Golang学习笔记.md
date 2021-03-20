@@ -32,4 +32,5 @@ categories: Golang
 [Go语言基础之map](https://www.niuwx.cn/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E4%B9%8Bmap/)
 [Go语言基础之函数](https://www.niuwx.cn/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E4%B9%8B%E5%87%BD%E6%95%B0/)
 [Go语言基础之指针](https://www.niuwx.cn/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E4%B9%8B%E6%8C%87%E9%92%88/)
+[Go语言基础之结构体（一）](https://www.niuwx.cn/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E4%B9%8B%E7%BB%93%E6%9E%84%E4%BD%93%EF%BC%88%E4%B8%80%EF%BC%89/)
 
