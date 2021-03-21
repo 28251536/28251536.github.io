@@ -207,15 +207,15 @@ type student struct {
 }
 
 func main() {
-	var p = new(student)
-	fmt.Printf("%T\n", p)
-	fmt.Println(p)
+	var s = new(student)
+	fmt.Printf("%T\n", s)
+	fmt.Println(s)
 
-	p.name = "小学生" //Go语言中支持对结构体指针直接使用.来访问结构体成员
-	p.age = 7
-	p.id = "666"
-	p.score = 60
-	fmt.Println(p)
+	s.name = "小学生" //Go语言中支持对结构体指针直接使用.来访问结构体成员
+	s.age = 7
+	s.id = "666"
+	s.score = 60
+	fmt.Println(s)
 }
 ```
 
@@ -246,15 +246,15 @@ type student struct {
 }
 
 func main() {
-	p := &student{}
-	fmt.Printf("%T\n", p)
-	fmt.Println(p)
+	s := &student{}
+	fmt.Printf("%T\n", s)
+	fmt.Println(s)
 
-	p.name = "小学生"
-	p.age = 7
-	p.id = "666"
-	p.score = 60
-	fmt.Println(p)
+	s.name = "小学生"
+	s.age = 7
+	s.id = "666"
+	s.score = 60
+	fmt.Println(s)
 }
 
 ```
