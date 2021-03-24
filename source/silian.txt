@@ -17,14 +17,10 @@ https://www.niuwx.cn/index.php/2020/12/
 https://www.niuwx.cn/index.php/archives/3/
 https://www.niuwx.cn/index.php/archives/29/
 https://www.niuwx.cn/index.php/archives/45/
-https://www.niuwx.cn/index.php/archives/4/?replyTo=3
-https://www.niuwx.cn/index.php/archives/3/?replyTo=2
 https://www.niuwx.cn/index.php/archives/3/?replyTo=2
 https://www.niuwx.cn/index.php/archives/4/?replyTo=3
 https://www.niuwx.cn/index.php/page/2/
-https://www.niuwx.cn/index.php/archives/3/?replyTo=2
 https://www.niuwx.cn/index.php/page/1/
-https://www.niuwx.cn/index.php/archives/4/?replyTo=3
 https://niuwx.cn/index.php/page/1/
 https://niuwx.cn/index.php/44.html
 https://niuwx.cn/index.php/category/else/
@@ -35,5 +31,7 @@ https://niuwx.cn/index.php/category/bj/
 https://niuwx.cn/index.php/archives/37/
 https://niuwx.cn/index.php/archives/4/?replyTo=3
 https://niuwx.cn/index.php/archives/22/
-https://www.niuwx.cn/
-https://niuwx.cn/
+https://www.niuwx.cn/index.php/archives/33/
+https://www.niuwx.cn/index.php/archives/5/
+https://www.niuwx.cn/index.php/archives/6/
+https://www.niuwx.cn/index.php/category/x-q/
