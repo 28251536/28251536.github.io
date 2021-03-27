@@ -1,7 +1,7 @@
 ---
 title: Golang学习笔记
 mathjax: true
-pin: true
+pin: false
 date: 2021-03-14 10:31:34
 tags:     
     - Golang    
